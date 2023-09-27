@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import up from "../../assets/infoBlock.svg";
+import up from "../../assets/infoblock.svg";
 import styles from "./ScrollButton.module.scss";
 import { useEffect } from "react";
 import cn from "clsx";
