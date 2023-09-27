@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header/header";
+import Header from "./components/Header/Header";
 import Line from "./components/Line/Line";
 import Nav from "./components/Nav/Nav";
 import InfoBlock from "./components/InfoBlock/InfoBlock";
