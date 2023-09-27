@@ -1,0 +1,172 @@
+.card {
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 10px 30px 0px rgba(69, 88, 190, 0.1);
+	max-width: 420px;
+	padding: 36px 26px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.crypMain {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	margin-bottom: 20px;
+}
+
+.crypName {
+	color: #000;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 6px;
+}
+
+.crypDesc {
+	margin-top: 10px;
+	color: #999;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.crypAir {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.crypAir button {
+	padding: 0;
+	outline: none;
+	border: none;
+	background: none;
+	color: #3d8aff;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	display: flex;
+	justify-content: start;
+	cursor: pointer;
+}
+
+.airBox {
+	border-radius: 10px;
+	border: 1px solid #999;
+	padding: 12px;
+	margin-top: 10px;
+}
+.airBox > span {
+	color: #000;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.air {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.airLeft,
+.airRight {
+	display: flex;
+	flex-direction: column;
+	color: #444;
+	font-family: Inter;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.airLeft span:first-child,
+.airRight span:first-child {
+	color: #000;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+.airLeft {
+	margin-right: 50px;
+}
+
+.tarif {
+	display: flex;
+	flex-direction: column;
+}
+
+.tarifHead {
+	display: flex;
+	flex-direction: row;
+	margin-top: 14px;
+
+	span:nth-child(1) {
+		width: 40%;
+	}
+	span:nth-child(2) {
+		width: 25%;
+	}
+	span:nth-child(3) {
+		width: 25%;
+	}
+}
+
+.tar {
+	display: flex;
+	flex-direction: row;
+	border-radius: 8px;
+	background: #f8f9fc;
+	padding: 8px 30px;
+	margin: 4px 0;
+
+	span:nth-child(1) {
+		width: 40%;
+		color: #000;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	span:nth-child(2) {
+		width: 25%;
+		color: #000;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	span:nth-child(3) {
+		width: 25%;
+		cursor: pointer;
+		color: #3d8aff;
+		text-align: center;
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.card {
+		max-width: 390px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.crypMain {
+		margin-top: 24px;
+		gap: 18px;
+	}
+	.card {
+		margin: 0;
+	}
+}
